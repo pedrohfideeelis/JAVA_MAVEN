@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping(value = "/api/pessoa")
-public class Pessoa {
+public class PessoaResource {
     public String listarPessoa(){
         return "Pedro Henrique Fidelis";
     }
