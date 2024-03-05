@@ -1,5 +1,8 @@
 #Arquivo de configurações
 
+server:
+  port: 8081
+
 project:
   name: '@project.artifactId@' #@valor@ está importando do .xml
   version: '@project.version@'
@@ -27,5 +30,6 @@ application:
       #Logging
       logging:
         level:
+          org.example.resource: debug
           br.senac.go: debug
           org.springframework.web: info
